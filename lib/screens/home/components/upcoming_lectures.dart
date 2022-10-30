@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../size_config.dart';
 import 'section_title.dart';
 
-class SpecialOffers extends StatelessWidget {
-  const SpecialOffers({
+class UpcomingLectures extends StatelessWidget {
+  const UpcomingLectures({
     Key? key,
   }) : super(key: key);
 
