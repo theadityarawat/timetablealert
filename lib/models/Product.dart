@@ -27,10 +27,10 @@ List<Product> demoProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/hp_pavillion_1.png",
-      "assets/images/hp_pavillion_2.png",
-      "assets/images/hp_pavillion_3.png",
-      "assets/images/hp_pavillion_4.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
     ],
     colors: [
       // Color(0xFFF6625E),
@@ -38,10 +38,10 @@ List<Product> demoProducts = [
       // Color(0xFFDECB9C),
       // Colors.white,
     ],
-    title: "HP Pavillion Gaming Laptop 15 ec2008ax",
+    title: "Sample Resource 1",
     price: 54949,
     description:
-        "Laptop with ideal specifications for a gamer, student, graphic designer. A powerhouse you'll love.",
+        "This is the template for a resource that can be posted here for reference.",
     rating: 4.8,
     isFavourite: true,
     isPopular: true,
@@ -49,10 +49,10 @@ List<Product> demoProducts = [
   Product(
     id: 2,
     images: [
-      "assets/images/mi_note9_pro_1.png",
-      "assets/images/mi_note9_pro_2.png",
-      "assets/images/mi_note9_pro_3.png",
-      "assets/images/mi_note9_pro_4.png"
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png"
     ],
     colors: [
       // Color(0xFFF6625E),
@@ -60,21 +60,19 @@ List<Product> demoProducts = [
       // Color(0xFFDECB9C),
       // Colors.white,
     ],
-    title: "Redmi Note 9 Pro(White) 4GB",
+    title: "Sample Resource 2",
     price: 14348,
     description:
-        "A phone for the lovers of speed, camera and battery. Get yours now and enjoy blazing fast speed with Cooling 2.0",
+        "This is the template for a resource that can be posted here for reference.",
     rating: 4.1,
     isPopular: true,
   ),
   Product(
     id: 3,
     images: [
-      "assets/images/boat_330_1.png",
-      "assets/images/boat_330_2.png",
-      "assets/images/boat_330_3.png",
-      "assets/images/boat_330_4.png",
-      "assets/images/boat_330_5.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
+      "assets/images/Resource.png",
     ],
     colors: [
       // Color(0xFFF6625E),
@@ -82,10 +80,10 @@ List<Product> demoProducts = [
       // Color(0xFFDECB9C),
       // Colors.white,
     ],
-    title: "Boat Rockerz 330(Black)",
+    title: "Sample Resource 3",
     price: 1399,
     description:
-        "Wireless earphones to immerse you in Bass. Enjoy grooving into music with battery that last hours and charges back in 5 minutes.",
+        "This is the template for a resource that can be posted here for reference.",
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
@@ -93,7 +91,7 @@ List<Product> demoProducts = [
   Product(
     id: 4,
     images: [
-      "assets/images/wireless headset.png",
+      "assets/images/Resource.png",
     ],
     colors: [
       // Color(0xFFF6625E),
@@ -103,7 +101,8 @@ List<Product> demoProducts = [
     ],
     title: "Logitech Head",
     price: 20.20,
-    description: "Hi",
+    description:
+        "This is the template for a resource that can be posted here for reference.",
     rating: 4.1,
     isFavourite: true,
   ),

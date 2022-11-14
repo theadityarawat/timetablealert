@@ -16,17 +16,17 @@ class Categories extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(getProportionateScreenWidth(20)),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: List.generate(
-          categories.length,
-          (index) => CategoryCard(
-            icon: categories[index]["icon"],
-            text: categories[index]["text"],
-            press: () {},
+          // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          // crossAxisAlignment: CrossAxisAlignment.start,
+          // children: List.generate(
+          //   categories.length,
+          //   (index) => CategoryCard(
+          //     icon: categories[index]["icon"],
+          //     text: categories[index]["text"],
+          //     press: () {},
+          //   ),
+          // ),
           ),
-        ),
-      ),
     );
   }
 }

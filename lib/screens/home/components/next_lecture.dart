@@ -25,9 +25,9 @@ class NextLecture extends StatelessWidget {
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "Congratulations on coming back to college\n"),
+            TextSpan(text: "Upcoming Lecture is\n"),
             TextSpan(
-              text: "Get 20% cashback everywhere!",
+              text: "DSD in CSE(III Sem)",
               style: TextStyle(
                 fontSize: getProportionateScreenWidth(24),
                 fontWeight: FontWeight.bold,

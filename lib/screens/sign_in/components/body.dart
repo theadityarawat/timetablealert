@@ -35,22 +35,16 @@ class Body extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    SocalCard(
-                      icon: "assets/icons/google-icon.svg",
-                      press: () {},
-                    ),
-                    SocalCard(
-                      icon: "assets/icons/facebook-2.svg",
-                      press: () {},
-                    ),
-                    SocalCard(
-                      icon: "assets/icons/twitter.svg",
-                      press: () {},
-                    ),
+                    Container(
+                      child: Image.asset(
+                        'images/IIITS_Logo.png',
+                        width: 150,
+                      ),
+                    )
                   ],
                 ),
                 SizedBox(height: getProportionateScreenHeight(20)),
-                NoAccountText(),
+                // NoAccountText(),
               ],
             ),
           ),

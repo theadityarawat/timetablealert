@@ -16,7 +16,7 @@ class UpcomingLectures extends StatelessWidget {
           padding:
               EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
           child: SectionTitle(
-            title: "Get Started",
+            title: "Upcoming Lectures",
             press: () {},
           ),
         ),
@@ -27,14 +27,14 @@ class UpcomingLectures extends StatelessWidget {
             children: [
               SpecialOfferCard(
                 image: "assets/images/Image Banner 2.png",
-                category: "Smartphone",
-                percentOff: 18,
+                category: "SE(IT)",
+                percentOff: 3,
                 press: () {},
               ),
               SpecialOfferCard(
                 image: "assets/images/Image Banner 3.png",
-                category: "Fashion",
-                percentOff: 24,
+                category: "DS(CSE)",
+                percentOff: 2,
                 press: () {},
               ),
               SizedBox(width: getProportionateScreenWidth(20)),
@@ -100,11 +100,16 @@ class SpecialOfferCard extends StatelessWidget {
                         TextSpan(
                           text: "$category\n",
                           style: TextStyle(
-                            fontSize: getProportionateScreenWidth(18),
+                            fontSize: getProportionateScreenWidth(25),
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        TextSpan(text: "$percentOff % Off")
+                        TextSpan(
+                          text: "Semester: $percentOff",
+                          style: TextStyle(
+                            fontSize: getProportionateScreenWidth(18),
+                          ),
+                        )
                       ],
                     ),
                   ),
