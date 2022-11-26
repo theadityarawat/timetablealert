@@ -2,8 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '/components/custom_surfix_icon.dart';
 import '/components/form_error.dart';
-import '/helper/keyboard.dart';
-import '/screens/forgot_password/forgot_password_screen.dart';
+import '../../../components/keyboard.dart';
 import '/screens/login_success/signuplogin_success_screen.dart';
 
 import '../../../components/default_button.dart';
@@ -62,8 +61,8 @@ class _SignFormState extends State<SignForm> {
               Text("Remember me"),
               Spacer(),
               GestureDetector(
-                onTap: () => Navigator.pushNamed(
-                    context, ForgotPasswordScreen.routeName),
+                // onTap: () => Navigator.pushNamed(
+                //     context, ForgotPasswordScreen.routeName),
                 child: Text(
                   "Forgot Password",
                   style: TextStyle(decoration: TextDecoration.underline),

@@ -34,10 +34,7 @@ class CustomAppBar extends StatelessWidget {
                   padding: EdgeInsets.zero,
                 ),
                 onPressed: () => Navigator.pop(context),
-                child: SvgPicture.asset(
-                  "assets/icons/Back ICon.svg",
-                  height: 15,
-                ),
+                child: Icon(Icons.arrow_back_ios),
               ),
             ),
             Spacer(),
@@ -49,15 +46,15 @@ class CustomAppBar extends StatelessWidget {
               ),
               child: Row(
                 children: [
-                  Text(
-                    "$rating",
-                    style: const TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  const SizedBox(width: 5),
-                  SvgPicture.asset("assets/icons/Star Icon.svg"),
+                  // Text(
+                  //   "$rating",
+                  //   style: const TextStyle(
+                  //     fontSize: 14,
+                  //     fontWeight: FontWeight.w600,
+                  //   ),
+                  // ),
+                  // const SizedBox(width: 5),
+                  // SvgPicture.asset("assets/icons/Star Icon.svg"),
                 ],
               ),
             )

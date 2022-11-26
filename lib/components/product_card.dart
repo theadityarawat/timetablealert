@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '/models/Product.dart';
-import '/screens/details/details_screen.dart';
+import 'resources.dart';
+import 'package:practicum/screens/resources/resources_view.dart';
 
 import '../constants.dart';
 import '../size_config.dart';
@@ -26,7 +26,7 @@ class ProductCard extends StatelessWidget {
         child: GestureDetector(
           onTap: () => Navigator.pushNamed(
             context,
-            DetailsScreen.routeName,
+            ResourceDetails.routeName,
             arguments: ProductDetailsArguments(product: product),
           ),
           child: Column(
@@ -55,35 +55,7 @@ class ProductCard extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  // Text(
-                  //   "₹${product.price}",
-                  //   style: TextStyle(
-                  //     fontSize: getProportionateScreenWidth(18),
-                  //     fontWeight: FontWeight.w600,
-                  //     color: kMainColor,
-                  //   ),
-                  // ),
-                  // InkWell(
-                  //   borderRadius: BorderRadius.circular(50),
-                  //   onTap: () {},
-                  //   child: Container(
-                  //     padding: EdgeInsets.all(getProportionateScreenWidth(8)),
-                  //     height: getProportionateScreenWidth(28),
-                  //     width: getProportionateScreenWidth(28),
-                  //     decoration: BoxDecoration(
-                  //       color: product.isFavourite
-                  //           ? kMainColor.withOpacity(0.15)D
-                  //           : kSecondaryColor.withOpacity(0.1),
-                  //       shape: BoxShape.circle,
-                  //     ),
-                  //     child: SvgPicture.asset(
-                  //       "assets/icons/Heart Icon_2.svg",
-                  //       color: product.isFavourite
-                  //           ? Color(0xFFFF4848)
-                  //           : Color(0xFFDBDEE4),
-                  //     ),
-                  //   ),
-                  // ),
+
                 ],
               )
             ],

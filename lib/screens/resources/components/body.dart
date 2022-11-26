@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '/components/default_button.dart';
-import '/models/Product.dart';
+import '../../../components/resources.dart';
 import '/size_config.dart';
 
 import 'color_dots.dart';
