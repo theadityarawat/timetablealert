@@ -27,7 +27,7 @@ class UpcomingLectures extends StatelessWidget {
             children: [
               SpecialOfferCard(
                 image: "assets/images/Image Banner 2.png",
-                category: "SE(IT)",
+                category: "SE(CSE)",
                 percentOff: 3,
                 press: () {},
               ),

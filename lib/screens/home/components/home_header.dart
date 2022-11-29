@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../size_config.dart';
 
-
 class HomeHeader extends StatelessWidget {
   const HomeHeader({
     Key? key,

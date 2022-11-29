@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 import '/components/default_button.dart';
 import '../../../components/resources.dart';
 import '/size_config.dart';
-
+import 'package:url_launcher/url_launcher.dart';
 import 'color_dots.dart';
 import 'product_description.dart';
 import 'top_rounded_container.dart';
@@ -34,17 +36,20 @@ class Body extends StatelessWidget {
                     TopRoundedContainer(
                       color: Colors.white,
                       child: Padding(
-                        padding: EdgeInsets.only(
-                          left: SizeConfig.screenWidth * 0.15,
-                          right: SizeConfig.screenWidth * 0.15,
-                          bottom: getProportionateScreenWidth(40),
-                          top: getProportionateScreenWidth(15),
-                        ),
-                        child: DefaultButton(
-                          text: "Visit Resource",
-                          press: () {},
-                        ),
-                      ),
+                          padding: EdgeInsets.only(
+                            left: SizeConfig.screenWidth * 0.15,
+                            right: SizeConfig.screenWidth * 0.15,
+                            bottom: getProportionateScreenWidth(40),
+                            top: getProportionateScreenWidth(15),
+                          ),
+                          child: Link(
+                            uri: Uri.parse(
+                                'https://docs.google.com/document/d/13Q-8AAZADLT98gax55g_wpWuMZTTc0XTCY6U5iNVTmI/edit?usp=sharing'),
+                            builder: (context, followLink) => DefaultButton(
+                              text: "Visit Resource",
+                              press: followLink,
+                            ),
+                          )),
                     ),
                   ],
                 ),

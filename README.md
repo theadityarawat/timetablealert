@@ -1,8 +1,11 @@
-# practicum
+# Sangyan: The Time Table Alert System
 
-A new Flutter project.
+A flutter project created in completion of Practicum in third semester during engineering.
 
-## Getting Started
+## Contributors:
+-Aditya Rawat
+-Ashwin Jharia
+-Jayesh Yadav
 
 This project is a starting point for a Flutter application.
 

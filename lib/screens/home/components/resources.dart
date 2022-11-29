@@ -21,11 +21,10 @@ class Resources extends StatelessWidget {
           child: Row(
             children: [
               ...List.generate(
-                demoProducts.length,
+                6,
                 (index) {
                   if (demoProducts[index].isPopular)
                     return ProductCard(product: demoProducts[index]);
-
                   return SizedBox
                       .shrink(); // here by default width and height is 0
                 },
