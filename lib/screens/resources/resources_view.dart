@@ -23,7 +23,7 @@ class ResourceDetails extends StatelessWidget {
 }
 
 class ProductDetailsArguments {
-  final Product product;
+  final Resource product;
 
   ProductDetailsArguments({required this.product});
 }

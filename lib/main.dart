@@ -20,8 +20,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Sangyan',
       theme: theme(),
-      // home: SplashScreen(),
-      // We use routeName so that we don't need to remember the name
       initialRoute: SplashScreen.routeName,
       routes: routes,
     );

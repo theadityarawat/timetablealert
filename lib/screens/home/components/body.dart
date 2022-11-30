@@ -47,7 +47,7 @@ class _BodyState extends State<Body> {
               ),
               onPressed: () {
                 notificationServices.sendNotification(
-                    '11:00 | IT | DSD', 'Upcoming Lecture');
+                    '11:00 | IT | AP', 'Upcoming Lecture');
               },
               child: Text(
                 'Send Demo Notification',

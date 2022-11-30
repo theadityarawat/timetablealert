@@ -1,10 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import '/components/custom_surfix_icon.dart';
-import '/components/form_error.dart';
 import '../../../components/keyboard.dart';
 import '/screens/login_success/signuplogin_success_screen.dart';
-
 import '../../../components/default_button.dart';
 import '../../../constants.dart';
 import '../../../size_config.dart';
@@ -70,7 +67,7 @@ class _SignFormState extends State<SignForm> {
               )
             ],
           ),
-          FormError(errors: errors),
+          // FormError(errors: errors),
           SizedBox(height: getProportionateScreenHeight(20)),
           DefaultButton(
             text: "Continue",
@@ -120,7 +117,7 @@ class _SignFormState extends State<SignForm> {
         // If  you are using latest version of flutter then lable text and hint text shown like this
         // if you r using flutter less then 1.20.* then maybe this is not working properly
         floatingLabelBehavior: FloatingLabelBehavior.always,
-        suffixIcon: CustomSurffixIcon(svgIcon: "assets/icons/Lock.svg"),
+        // suffixIcon: CustomSurffixIcon(svgIcon: "assets/icons/Lock.svg"),
       ),
     );
   }
@@ -153,7 +150,7 @@ class _SignFormState extends State<SignForm> {
         // If  you are using latest version of flutter then lable text and hint text shown like this
         // if you r using flutter less then 1.20.* then maybe this is not working properly
         floatingLabelBehavior: FloatingLabelBehavior.always,
-        suffixIcon: CustomSurffixIcon(svgIcon: "assets/icons/Mail.svg"),
+        // suffixIcon: CustomSurffixIcon(svgIcon: "assets/icons/Mail.svg"),
       ),
     );
   }

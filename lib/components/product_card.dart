@@ -15,7 +15,7 @@ class ProductCard extends StatelessWidget {
   }) : super(key: key);
 
   final double width, aspectRatio;
-  final Product product;
+  final Resource product;
 
   @override
   Widget build(BuildContext context) {

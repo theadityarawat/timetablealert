@@ -11,7 +11,7 @@ class ColorDots extends StatelessWidget {
     required this.product,
   }) : super(key: key);
 
-  final Product product;
+  final Resource product;
 
   @override
   Widget build(BuildContext context) {
@@ -21,9 +21,7 @@ class ColorDots extends StatelessWidget {
       padding:
           EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
       child: Row(
-        children: [
-
-        ],
+        children: [],
       ),
     );
   }

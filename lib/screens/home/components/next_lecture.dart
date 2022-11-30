@@ -26,7 +26,7 @@ class NextLecture extends StatelessWidget {
           children: [
             TextSpan(text: "Upcoming Lecture is\n"),
             TextSpan(
-              text: "DSD in CSE(III Sem)",
+              text: "AP in CSE(III Sem)",
               style: TextStyle(
                 fontSize: getProportionateScreenWidth(24),
                 fontWeight: FontWeight.bold,

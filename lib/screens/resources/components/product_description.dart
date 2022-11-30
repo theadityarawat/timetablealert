@@ -12,7 +12,7 @@ class ProductDescription extends StatelessWidget {
     this.pressOnSeeMore,
   }) : super(key: key);
 
-  final Product product;
+  final Resource product;
   final GestureTapCallback? pressOnSeeMore;
 
   @override
